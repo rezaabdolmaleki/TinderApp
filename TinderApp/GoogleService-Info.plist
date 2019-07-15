@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>CLIENT_ID</key>
+	<string>381383332738-r1umko216urt5t51nqeui6k61rvbsg7f.apps.googleusercontent.com</string>
+	<key>REVERSED_CLIENT_ID</key>
+	<string>com.googleusercontent.apps.381383332738-r1umko216urt5t51nqeui6k61rvbsg7f</string>
+	<key>API_KEY</key>
+	<string>AIzaSyAXHal71cy4lMjONM8sPgiZVQTh3xEWFQ4</string>
+	<key>GCM_SENDER_ID</key>
+	<string>381383332738</string>
+	<key>PLIST_VERSION</key>
+	<string>1</string>
+	<key>BUNDLE_ID</key>
+	<string>abdolmaleki.TinderApp</string>
+	<key>PROJECT_ID</key>
+	<string>tindersimpleapp</string>
+	<key>STORAGE_BUCKET</key>
+	<string>tindersimpleapp.appspot.com</string>
+	<key>IS_ADS_ENABLED</key>
+	<false></false>
+	<key>IS_ANALYTICS_ENABLED</key>
+	<false></false>
+	<key>IS_APPINVITE_ENABLED</key>
+	<true></true>
+	<key>IS_GCM_ENABLED</key>
+	<true></true>
+	<key>IS_SIGNIN_ENABLED</key>
+	<true></true>
+	<key>GOOGLE_APP_ID</key>
+	<string>1:381383332738:ios:32b94cc115ef3afd</string>
+	<key>DATABASE_URL</key>
+	<string>https://tindersimpleapp.firebaseio.com</string>
+</dict>
+</plist>

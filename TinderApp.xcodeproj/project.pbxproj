@@ -8,20 +8,40 @@
 
 /* Begin PBXBuildFile section */
 		1E3D937E22DB74E80065E024 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E3D937D22DB74E80065E024 /* AppDelegate.swift */; };
-		1E3D938022DB74E80065E024 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E3D937F22DB74E80065E024 /* ViewController.swift */; };
-		1E3D938322DB74E80065E024 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1E3D938122DB74E80065E024 /* Main.storyboard */; };
 		1E3D938522DB74E90065E024 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1E3D938422DB74E90065E024 /* Assets.xcassets */; };
 		1E3D938822DB74E90065E024 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1E3D938622DB74E90065E024 /* LaunchScreen.storyboard */; };
+		1E3D939222DB75E60065E024 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 1E3D939122DB75E60065E024 /* GoogleService-Info.plist */; };
+		1E3D939422DB7BE20065E024 /* TinderMain.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1E3D939322DB7BE20065E024 /* TinderMain.storyboard */; };
+		1E3D939622DB7DD80065E024 /* WelcomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E3D939522DB7DD80065E024 /* WelcomeViewController.swift */; };
+		1E3D939822DB8C8C0065E024 /* WelcomeViewController+UI.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E3D939722DB8C8C0065E024 /* WelcomeViewController+UI.swift */; };
+		1E3D939A22DBD9230065E024 /* SignUpViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E3D939922DBD9230065E024 /* SignUpViewController.swift */; };
+		1E3D939C22DBD93A0065E024 /* SignUpViewController+UI.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E3D939B22DBD93A0065E024 /* SignUpViewController+UI.swift */; };
+		1E3D939E22DBE8F10065E024 /* SignInViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E3D939D22DBE8F10065E024 /* SignInViewController.swift */; };
+		1E3D93A022DBE90D0065E024 /* SignInViewController+UI.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E3D939F22DBE90D0065E024 /* SignInViewController+UI.swift */; };
+		1E3D93A222DC3DFD0065E024 /* ResetPasswordViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E3D93A122DC3DFC0065E024 /* ResetPasswordViewController.swift */; };
+		1E3D93A422DC3E9E0065E024 /* ResetPasswordViewController+UI.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E3D93A322DC3E9E0065E024 /* ResetPasswordViewController+UI.swift */; };
+		2E6A6B3D26601BF56663B101 /* Pods_TinderApp.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 83CDB13E6F588A3B5479E4D9 /* Pods_TinderApp.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		162046734D8AC03C9CC014E2 /* Pods-TinderApp.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TinderApp.release.xcconfig"; path = "Target Support Files/Pods-TinderApp/Pods-TinderApp.release.xcconfig"; sourceTree = "<group>"; };
 		1E3D937A22DB74E80065E024 /* TinderApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TinderApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		1E3D937D22DB74E80065E024 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		1E3D937F22DB74E80065E024 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		1E3D938222DB74E80065E024 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		1E3D938422DB74E90065E024 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		1E3D938722DB74E90065E024 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		1E3D938922DB74E90065E024 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1E3D939122DB75E60065E024 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		1E3D939322DB7BE20065E024 /* TinderMain.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = TinderMain.storyboard; sourceTree = "<group>"; };
+		1E3D939522DB7DD80065E024 /* WelcomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WelcomeViewController.swift; sourceTree = "<group>"; };
+		1E3D939722DB8C8C0065E024 /* WelcomeViewController+UI.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "WelcomeViewController+UI.swift"; sourceTree = "<group>"; };
+		1E3D939922DBD9230065E024 /* SignUpViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignUpViewController.swift; sourceTree = "<group>"; };
+		1E3D939B22DBD93A0065E024 /* SignUpViewController+UI.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "SignUpViewController+UI.swift"; sourceTree = "<group>"; };
+		1E3D939D22DBE8F10065E024 /* SignInViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignInViewController.swift; sourceTree = "<group>"; };
+		1E3D939F22DBE90D0065E024 /* SignInViewController+UI.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "SignInViewController+UI.swift"; sourceTree = "<group>"; };
+		1E3D93A122DC3DFC0065E024 /* ResetPasswordViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ResetPasswordViewController.swift; sourceTree = "<group>"; };
+		1E3D93A322DC3E9E0065E024 /* ResetPasswordViewController+UI.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "ResetPasswordViewController+UI.swift"; sourceTree = "<group>"; };
+		24723D01475C42331FBC9AAA /* Pods-TinderApp.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TinderApp.debug.xcconfig"; path = "Target Support Files/Pods-TinderApp/Pods-TinderApp.debug.xcconfig"; sourceTree = "<group>"; };
+		83CDB13E6F588A3B5479E4D9 /* Pods_TinderApp.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_TinderApp.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -29,6 +49,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2E6A6B3D26601BF56663B101 /* Pods_TinderApp.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -40,6 +61,8 @@
 			children = (
 				1E3D937C22DB74E80065E024 /* TinderApp */,
 				1E3D937B22DB74E80065E024 /* Products */,
+				D4BF5B52EA7854FAF833E584 /* Pods */,
+				2EB50E970FCEF31FB68B8B75 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -54,14 +77,39 @@
 		1E3D937C22DB74E80065E024 /* TinderApp */ = {
 			isa = PBXGroup;
 			children = (
+				1E3D939122DB75E60065E024 /* GoogleService-Info.plist */,
+				1E3D938922DB74E90065E024 /* Info.plist */,
+				1E3D939322DB7BE20065E024 /* TinderMain.storyboard */,
 				1E3D937D22DB74E80065E024 /* AppDelegate.swift */,
-				1E3D937F22DB74E80065E024 /* ViewController.swift */,
-				1E3D938122DB74E80065E024 /* Main.storyboard */,
+				1E3D93A122DC3DFC0065E024 /* ResetPasswordViewController.swift */,
+				1E3D93A322DC3E9E0065E024 /* ResetPasswordViewController+UI.swift */,
+				1E3D939D22DBE8F10065E024 /* SignInViewController.swift */,
+				1E3D939F22DBE90D0065E024 /* SignInViewController+UI.swift */,
+				1E3D939922DBD9230065E024 /* SignUpViewController.swift */,
+				1E3D939B22DBD93A0065E024 /* SignUpViewController+UI.swift */,
+				1E3D939522DB7DD80065E024 /* WelcomeViewController.swift */,
+				1E3D939722DB8C8C0065E024 /* WelcomeViewController+UI.swift */,
 				1E3D938422DB74E90065E024 /* Assets.xcassets */,
 				1E3D938622DB74E90065E024 /* LaunchScreen.storyboard */,
-				1E3D938922DB74E90065E024 /* Info.plist */,
 			);
 			path = TinderApp;
+			sourceTree = "<group>";
+		};
+		2EB50E970FCEF31FB68B8B75 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				83CDB13E6F588A3B5479E4D9 /* Pods_TinderApp.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		D4BF5B52EA7854FAF833E584 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				24723D01475C42331FBC9AAA /* Pods-TinderApp.debug.xcconfig */,
+				162046734D8AC03C9CC014E2 /* Pods-TinderApp.release.xcconfig */,
+			);
+			path = Pods;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -71,9 +119,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 1E3D938C22DB74E90065E024 /* Build configuration list for PBXNativeTarget "TinderApp" */;
 			buildPhases = (
+				F8475E45C9E90A3F2E66E65D /* [CP] Check Pods Manifest.lock */,
 				1E3D937622DB74E80065E024 /* Sources */,
 				1E3D937722DB74E80065E024 /* Frameworks */,
 				1E3D937822DB74E80065E024 /* Resources */,
+				CCD987A53F264B0D81266585 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -123,34 +173,87 @@
 			buildActionMask = 2147483647;
 			files = (
 				1E3D938822DB74E90065E024 /* LaunchScreen.storyboard in Resources */,
+				1E3D939222DB75E60065E024 /* GoogleService-Info.plist in Resources */,
 				1E3D938522DB74E90065E024 /* Assets.xcassets in Resources */,
-				1E3D938322DB74E80065E024 /* Main.storyboard in Resources */,
+				1E3D939422DB7BE20065E024 /* TinderMain.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		CCD987A53F264B0D81266585 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-TinderApp/Pods-TinderApp-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/GTMSessionFetcher/GTMSessionFetcher.framework",
+				"${BUILT_PRODUCTS_DIR}/GoogleUtilities/GoogleUtilities.framework",
+				"${BUILT_PRODUCTS_DIR}/leveldb-library/leveldb.framework",
+				"${BUILT_PRODUCTS_DIR}/nanopb/nanopb.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GTMSessionFetcher.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GoogleUtilities.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/leveldb.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/nanopb.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-TinderApp/Pods-TinderApp-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F8475E45C9E90A3F2E66E65D /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-TinderApp-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		1E3D937622DB74E80065E024 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				1E3D938022DB74E80065E024 /* ViewController.swift in Sources */,
+				1E3D93A422DC3E9E0065E024 /* ResetPasswordViewController+UI.swift in Sources */,
 				1E3D937E22DB74E80065E024 /* AppDelegate.swift in Sources */,
+				1E3D93A022DBE90D0065E024 /* SignInViewController+UI.swift in Sources */,
+				1E3D939622DB7DD80065E024 /* WelcomeViewController.swift in Sources */,
+				1E3D93A222DC3DFD0065E024 /* ResetPasswordViewController.swift in Sources */,
+				1E3D939E22DBE8F10065E024 /* SignInViewController.swift in Sources */,
+				1E3D939A22DBD9230065E024 /* SignUpViewController.swift in Sources */,
+				1E3D939822DB8C8C0065E024 /* WelcomeViewController+UI.swift in Sources */,
+				1E3D939C22DBD93A0065E024 /* SignUpViewController+UI.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		1E3D938122DB74E80065E024 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				1E3D938222DB74E80065E024 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		1E3D938622DB74E90065E024 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -280,9 +383,11 @@
 		};
 		1E3D938D22DB74E90065E024 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 24723D01475C42331FBC9AAA /* Pods-TinderApp.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 6AYPC4FR7S;
 				INFOPLIST_FILE = TinderApp/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -297,9 +402,11 @@
 		};
 		1E3D938E22DB74E90065E024 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 162046734D8AC03C9CC014E2 /* Pods-TinderApp.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 6AYPC4FR7S;
 				INFOPLIST_FILE = TinderApp/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
